@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hmm yes Cake</title>
+        <title>CakePHP Home</title>
     </head>
     <body>
 
@@ -26,7 +26,7 @@
         </tbody>
     </table>
 
-    <?= $this->Html->link("/secondHome/index")?>
+    <p>All of the exercices are done on the second page : <?= $this->Html->link("/secondHome/index")?> </p>
 
     </body>
 </html>

@@ -17,9 +17,9 @@
     echo "Bonjour, je suis un script PHP !";
     ?>
 
+    <h2>Variable content : <?= $test ?></h2>
 
     <?= $this->Html->image('pett.jpg')?>
-
 
     <table align="center">
         <thead>
