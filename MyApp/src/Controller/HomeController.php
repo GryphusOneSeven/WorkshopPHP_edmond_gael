@@ -9,6 +9,13 @@ class HomeController extends AppController
         $test = "test";
         $this->set("test", $test);
     }
-}
 
+    public function second()
+    {
+        $this->viewBuilder()->setLayout('myLayout');
+        $test = "test";
+        $this->set("test", $test);
+    }
+
+}
 ?>

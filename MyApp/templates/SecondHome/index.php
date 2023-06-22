@@ -1,9 +1,3 @@
-<?= $this->Html->css('site') ?>
-<?= $this->fetch('css') ?>
-
-<?= $this->Html->script(['site', 'mdb.min']) ?>
-<?= $this->fetch('site') ?>
-
 <!DOCTYPE html>
 <html>
     <head>
