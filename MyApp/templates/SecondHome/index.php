@@ -5,28 +5,28 @@
     </head>
     <body>
 
-    <h1>HELLO WORLD IN BIG TEXT</h1>
+    <h1>HELLO WORLD IN BIG TEXT BUT IN THE SECOND PAGE</h1>
 
     <?php
     echo "Bonjour, je suis un script PHP !";
     ?>
 
-    <table>
+    <table align="center">
         <thead>
-            <th>Name</th>
-            <th>Date</th>
             <th>Description</th>
+            <th>Date</th>
+            <th>Name</th>
         </thead>
         <tbody>
             <tr>
-                <td>No</td>
-                <td>25/03</td>
                 <td>Not yes</td>
+                <td>25/03</td>
+                <td>no</td>
             <tr>
         </tbody>
     </table>
 
-    <?= $this->Html->link("/secondHome/index")?>
+    <?= $this->Html->link("/home/index")?>
 
     </body>
 </html>
