@@ -1,3 +1,9 @@
+<?= $this->Html->css('site') ?>
+<?= $this->fetch('css') ?>
+
+<?= $this->Html->script(['site', 'mdb.min']) ?>
+<?= $this->fetch('site') ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,6 +16,10 @@
     <?php
     echo "Bonjour, je suis un script PHP !";
     ?>
+
+
+    <?= $this->Html->image('pett.jpg')?>
+
 
     <table align="center">
         <thead>
